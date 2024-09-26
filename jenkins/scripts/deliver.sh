@@ -26,5 +26,5 @@ set -x
 ls -l target/
 java -jar 'target/my-app-1.0-SNAPSHOT.jar'
 java -jar target/my-app-1.0-SNAPSHOT.jar
-java -jar "target/${NAME}-${VERSION}.jar"
+java -jar target/"${NAME}"-"${VERSION}".jar
 java -jar target/${NAME}-${VERSION}.jar
